@@ -1,0 +1,24 @@
+[bvim : Binary VIsual editor iMproved]
+======================================
+https://github.com/DavidKeaton/bvim
+
+An improved hex editor rewritten from the original `bvi' from
+Gerhard Buergmann.
+
+How to compile
+==============
+	./configure
+	make && make install
+
+
+MAC OS X
+========
+Looks like the curses implementation in Darwin is really limited.
+You should install and use ncurses instead. You can download it from
+ftp.gnu.org; install it and then use
+	./configure --with-ncurses=/usr/local/ncurses-5.2
+
+Contact
+=======
+You can always reach me via my email, DavekDOS@gmail.com, 
+or via an issue at the github listed above. -David
