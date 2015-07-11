@@ -35,3 +35,8 @@
 # astyle
 *.orig
 
+# compilation
+obj/
+objwin/
+makeit.sh
+
