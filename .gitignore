@@ -26,3 +26,12 @@
 *.exe
 *.out
 *.app
+
+# Vim
+*.vim
+*.swp
+*.swo
+
+# astyle
+*.orig
+
